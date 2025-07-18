@@ -36,6 +36,18 @@ export default {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				info: {
+					DEFAULT: 'hsl(var(--info))',
+					foreground: 'hsl(var(--info-foreground))'
+				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
 					foreground: 'hsl(var(--muted-foreground))'
@@ -61,6 +73,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Monitoring specific colors
+				cpu: 'hsl(var(--cpu-color))',
+				memory: 'hsl(var(--memory-color))',
+				disk: 'hsl(var(--disk-color))',
+				network: 'hsl(var(--network-color))',
+				status: {
+					running: 'hsl(var(--status-running))',
+					stopped: 'hsl(var(--status-stopped))',
+					error: 'hsl(var(--status-error))',
+					warning: 'hsl(var(--status-warning))'
 				}
 			},
 			borderRadius: {
